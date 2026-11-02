@@ -1,0 +1,42 @@
+streamlit
+google-generativeai
+python-dotenv
+
+                 USER
+                   │
+                   ▼
+        "Show all actors"
+                   │
+                   ▼
+        Streamlit Text Input
+                   │
+                   ▼
+          get_ollama_response()
+                   │
+                   ▼
+             Build Prompt
+                   │
+                   ▼
+            Ollama Llama 3.2
+                   │
+                   ▼
+        SELECT * FROM Actor;
+                   │
+                   ▼
+          read_sql_query()
+                   │
+                   ▼
+             SQLite DB
+             grpby.db
+                   │
+                   ▼
+            Fetch Results
+                   │
+                   ▼
+          Pandas DataFrame
+                   │
+                   ▼
+             Streamlit
+                   │
+                   ▼
+            Display Table
